@@ -18,3 +18,6 @@ solutions:
   solve.c:
     desc: ANSI C solution (Tested with TCC)
     language: c
+  solve.js:
+    desc: NodeJS solution
+    language: javascript
