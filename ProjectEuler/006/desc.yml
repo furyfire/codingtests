@@ -22,3 +22,6 @@ solutions:
   solve.c:
     desc: ANSI C solution (Tested with TCC)
     language: c
+  solve.js:
+    desc: Javascript solution for NodeJS
+    language: javascript
