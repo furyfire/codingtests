@@ -1,0 +1,16 @@
+languages:
+  javascript:
+    command: node
+    ext: [js,javascript]
+  php:
+    command: php
+    ext: [php]
+  ruby:
+    command: ruby
+    ext: [ruby,rb]
+  tcc:
+    command: tcc -run
+    ext: [c]
+  lua:
+    command: lua
+    ext: [lua]

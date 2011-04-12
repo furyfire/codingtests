@@ -15,3 +15,6 @@ solutions:
   solve.rb:
     desc: Basic solution in Ruby
     language: ruby
+  solve.js:
+    desc: Basic solution for NodeJS
+    language: js
