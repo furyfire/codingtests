@@ -1,0 +1,17 @@
+title: What is the smallest number divisible by each of the numbers 1 to 20?
+url: http://projecteuler.net/problem=5
+
+desc: |
+  2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+  What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+  
+solution: |
+  See code
+
+solutions:
+  solve.php:
+    desc: Basic solution
+    language: php
+  solve.rb:
+    desc: Basic solution in Ruby
+    language: ruby
