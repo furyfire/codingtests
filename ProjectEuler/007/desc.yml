@@ -1,0 +1,20 @@
+title: Find the 10001st prime.
+url: http://projecteuler.net/problem=7
+
+desc: |
+  By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
+  What is the 10 001st prime number?
+  
+solution: |
+  Move up the among the prime numbers till you reach 10001
+
+solutions:
+  solve.php:
+    desc: Basic solution
+    language: php
+  solve.rb
+    desc: Basic solution
+    language: PHP
+  solve.c
+    desc: ANSI C (Compiled with TCC) solution
+    language: C
