@@ -12,9 +12,9 @@ solutions:
   solve.php:
     desc: Basic solution
     language: php
-  solve.rb
+  solve.rb:
     desc: Basic solution
-    language: PHP
-  solve.c
+    language: ruby
+  solve.c:
     desc: ANSI C (Compiled with TCC) solution
-    language: C
+    language: c
