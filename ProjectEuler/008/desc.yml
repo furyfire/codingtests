@@ -1,0 +1,16 @@
+title: Discover the largest product of five consecutive digits in the 1000-digit number.
+url: http://projecteuler.net/problem=8
+
+desc: |
+  Find the greatest product of five consecutive digits in the 1000-digit number. 
+  
+solution: |
+  Bruteforce (Unless someone found a smarter way)
+
+solutions:
+  solve.php:
+    desc: Expects the haystack as stdin with optional newlines
+    language: php
+  solve.rb:
+    desc: Expects the haystack as stdin with optional newlines
+    language: ruby
