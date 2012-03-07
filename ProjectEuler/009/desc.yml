@@ -1,0 +1,23 @@
+title: Find the only Pythagorean triplet, {a, b, c}, for which a + b + c = 1000.
+url: http://projecteuler.net/problem=9
+
+desc: |
+  A Pythagorean triplet is a set of three natural numbers, a  b  c, for which,
+  a^2 + b^2 = c^2
+  For example, 3^2 + 4^2 = 9 + 16 = 25 = 5^2.
+  There exists exactly one Pythagorean triplet for which a + b + c = 1000.
+  Find the product abc.
+  
+solution: |
+  Make a nested forloop for a and b in the range 1-1000 - Then c = 1000-a-b - Test if solution is valid.
+
+solutions:
+  solve.php:
+    desc: Basic solution
+    language: php
+  solve.rb:
+    desc: Basic solution
+    language: ruby
+  solve.c:
+    desc: ANSI C solution compiled with TCC
+    language: c
