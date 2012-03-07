@@ -1,0 +1,20 @@
+title: Calculate the sum of all the primes below two million.
+url: http://projecteuler.net/problem=10
+
+desc: |
+  The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
+  Find the sum of all the primes below two million.
+  
+solution: |
+  Use a primenumber tester
+
+solutions:
+  solve.php:
+    desc: Basic solution
+    language: php
+  solve.rb:
+    desc: Basic solution
+    language: ruby
+  solve.c:
+    desc: ANSI C solution compiled with gcc-4.3.4
+    language: c
