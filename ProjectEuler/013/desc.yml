@@ -1,0 +1,17 @@
+title: Find the first ten digits of the sum of one-hundred 50-digit numbers.
+url: http://projecteuler.net/problem=13
+
+desc: |
+  Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
+  (See file input)
+  
+solution: |
+  Use a full precission math lib
+
+solutions:
+  solve.php:
+    desc: Expects input on STDIN
+    language: php
+  solve.rb:
+    desc: Expects input on STDIN
+    language: ruby
