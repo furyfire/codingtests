@@ -1,0 +1,15 @@
+title: How many letters would be needed to write all the numbers in words from 1 to 1000?
+url: http://projecteuler.net/problem=17
+
+desc: |
+  2^15 = 32768 and the sum of its digits is 3 + 2 + 7 + 6 + 8 = 26.
+  What is the sum of the digits of the number 2^1000?
+  
+solution: Just a matter of having a correct number-to-word function
+
+todo: Make a clean implementation
+
+solutions:
+  solve.php:
+    desc: Urggh - Solve using a lib from bas@startpunt.cc and corrected a small error so 210 whould include an "and" correctly
+    language: php
