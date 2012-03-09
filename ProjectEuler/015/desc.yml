@@ -1,4 +1,4 @@
-title: Find the longest sequence using a starting number under one million.	
+title: Starting in the top left corner in a 20 by 20 grid, how many routes are there to the bottom right corner?
 url: http://projecteuler.net/problem=15
 
 desc: |
