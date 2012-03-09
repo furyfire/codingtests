@@ -1,0 +1,19 @@
+title: Find the longest sequence using a starting number under one million.	
+url: http://projecteuler.net/problem=15
+
+desc: |
+  Starting in the top left corner of a 22 grid, there are 6 routes (without backtracking) to the bottom right corner.
+  How many routes are there through a 2020 grid?
+  
+solution: |
+  (2n)!/n!^2 - Where n is the size of the grid -
+  
+todo: Find a more "programmable way" instead of this cheating mathsolution
+
+solutions:
+  solve.php:
+    desc: Using BCMath to cope with large numbers
+    language: php
+  solve.rb:
+    desc: Basic solution
+    language: ruby
