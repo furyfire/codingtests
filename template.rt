@@ -1,0 +1,15 @@
+<%= problem['title'] %>
+<%= problem['url'] %>
+
+Desc:
+<%= problem['desc'] %>
+
+<% if( problem['solution'] and problem['solutions'] ) %>
+Solution:
+<%= problem['solution'] %>
+	<% problem['solutions'].each do |sol| %>
+	<%= sol[0] %>
+		<%= sol[1]['desc'] %>
+		<%= sol[1]['language'] %>
+	<% end %>
+<% end %>
