@@ -24,7 +24,8 @@ if(ARGV[1] == 'table')
 
 	rows = []
 	entry.each do |e|
-		row = [e['code'],e['title'],e['solved']]
+		solvedstring = (e['solved'] == 0) ? "No" : "Yes("+e['solved'].to_s+")"
+		row = [e['code'],e['title'],solvedstring]
 		rows << row
 	end
 	table = Terminal::Table.new(:headings => ['Code','Title','Solved'],:rows => rows)
