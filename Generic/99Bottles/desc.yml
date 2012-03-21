@@ -1,0 +1,11 @@
+title: FizzBuzz
+url: http://99-bottles-of-beer.net/
+
+desc: Generate the lyrics to the song 99 Bottles of Beer as an output.
+  
+solution: See the code...
+
+solutions:
+  solve.php:
+    desc: Basic solution
+    language: php
