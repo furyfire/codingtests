@@ -1,0 +1,16 @@
+title: HelloWorld
+url: http://en.wikipedia.org/wiki/Hello_world_program
+
+desc: A "Hello world" program is a computer program that outputs "Hello, world" on a display device.  
+solution: Do i need to say more
+
+solutions:
+  solve.php:
+    desc: Basic solution
+    language: php
+  solve.rb:
+    desc: Basic solution in Ruby
+    language: ruby
+  solve.c:
+    desc: ANSI C solution (Tested with TCC)
+    language: c
