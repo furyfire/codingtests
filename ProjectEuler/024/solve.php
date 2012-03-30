@@ -1,25 +1,26 @@
 <?php
-function fac($number) {
-	if($number == 1) 
-		return 1;
-	return $number * fac($number-1);
-}
-$result = array(0,0,0,0,0,0,0,0,0,0);
+define('NUM_PERMUTATION',1000000);
+define('DIGITS',9);
+$target = NUM_PERMUTATION - 1;
 
-$endsteps = 1000000;
-$cstep = 0;
-$cdigit = 9;
-while($cdigit != 0) {
-	
-	do{
-		$result[9-$cdigit]++;
-		$cstep += fac($cdigit);
-	} while ($cstep < $endsteps) ;
-	
-	echo "Done with $cdigit - steps:$cstep\n";
-	$cdigit--;
+$digits = range(0, 9);
+$permus = array(1 => 1);
+for ($i = 2; $i <= 9; $i++) {
+        $permus[$i] = $permus[$i - 1] * $i;
 }
-echo "DONE!";
-print_r($result);
-echo " - ".$cstep ."\n";
-echo "Result: 2783915460";
+$permus = array_reverse($permus);
+$values = array();
+
+foreach ($permus as $n) {
+        $values[] = floor($target / $n);
+        $target = $target%$n;
+}
+
+$result = "";
+foreach ($values as $val) {
+        $result .= $digits[$val];
+        unset($digits[$val]);
+        sort($digits);
+}
+$result .= $digits[0];
+echo $result;
