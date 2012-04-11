@@ -5,7 +5,7 @@ fib = new Array( 1, 2, 3 );
 	fib[2] = fib[0] + fib[1];
 	if(fib[2] % 2 == 0)
 		sum += fib[2];
-		fib[0] = fib[1];
+	fib[0] = fib[1];
 	fib[1] = fib[2];
 }
 console.log(sum );

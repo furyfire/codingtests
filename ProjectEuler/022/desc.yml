@@ -12,3 +12,4 @@ solutions:
   solve.php:
     desc: Expects data on STDIN
     language: php
+    parameters: < ProjectEuler\022\input

@@ -1,9 +1,24 @@
 require "yaml"
 require 'erb'
- 
+require 'open3'
+cli = { 'php' => 'php', 'ruby' => 'ruby', 'javascript'=>'node', 'js'=>'node', 'c' => 'tcc -run'}
 problem = YAML::load_file(ARGV[0] + "/desc.yml")
 output = ERB.new(IO.read('template.rt'))
 puts output.result()
+if(ARGV[1] == 'test') 
+	if(problem['solutions'])
+		problem['solutions'].each do |sol|
+			if(cli[sol[1]['language']])
+				parameter = (sol[1]['parameters']) ? " " + sol[1]['parameters'] : ""
+				stdin, stdout, stderr = Open3.popen3(cli[sol[1]['language']] + " "+ARGV[0]+"/"+sol[0] + parameter)
+				puts sol[0]+": " +stdout.readlines[0]
+				#Open3#popen3(cli[sol[1]['language']] + " "+ARGV[0]+"/"+sol[0])
+			end
+		end
+	else
+		puts "No solutions for said problem"
+	end
+end
 
 if(ARGV[1] == 'table') 
 	require 'terminal-table'
