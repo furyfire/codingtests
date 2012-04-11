@@ -12,6 +12,8 @@ solutions:
   solve.php:
     desc: Expects input on STDIN
     language: php
+    parameters: < ProjectEuler\013\input
   solve.rb:
     desc: Expects input on STDIN
     language: ruby
+    parameters: < ProjectEuler\013\input

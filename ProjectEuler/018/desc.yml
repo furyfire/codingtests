@@ -18,6 +18,8 @@ solutions:
   solve.php:
     desc: Basic solution
     language: php
+    parameters: < ProjectEuler\018\input
   solve.rb:
     desc: Basic solution
     language: ruby
+    parameters: < ProjectEuler\018\input

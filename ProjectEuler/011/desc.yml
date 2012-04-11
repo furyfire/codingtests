@@ -13,6 +13,8 @@ solutions:
   solve.php:
     desc: Expects the matrix as stdin
     language: php
+    parameters: < ProjectEuler\011\input
   solve.rb:
     desc: Expects the matrix as stdin
     language: ruby
+    parameters: < ProjectEuler\011\input

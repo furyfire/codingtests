@@ -22,3 +22,6 @@ solutions:
   solve.js:
     desc: NodeJS solution
     language: javascript
+  solve.lua:
+    desc: Basic solution
+    language: lua

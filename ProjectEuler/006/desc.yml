@@ -19,6 +19,6 @@ solutions:
   solve.rb:
     desc: Basic Ruby solution
     language: ruby
-  solve.rb:
+  solve.c:
     desc: ANSI C solution (Tested with TCC)
     language: c

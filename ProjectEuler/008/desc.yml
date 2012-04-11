@@ -11,6 +11,8 @@ solutions:
   solve.php:
     desc: Expects the haystack as stdin with optional newlines
     language: php
+    parameters: < ProjectEuler\008\input
   solve.rb:
     desc: Expects the haystack as stdin with optional newlines
     language: ruby
+    parameters: < ProjectEuler\008\input

@@ -16,5 +16,5 @@ solutions:
     desc: Basic solution
     language: ruby
   solve.c:
-    desc: ANSI C solution compiled with gcc-4.3.4
+    desc: C solution compiled with gcc-4.3.4 (Support for long long needed)
     language: c
