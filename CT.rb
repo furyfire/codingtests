@@ -30,7 +30,7 @@ case ARGV[1]
 
 		require 'terminal-table'
 		files = Dir[ARGV[0]+"/**/*/desc.yml"]
-		files.sort
+		files.sort!
 		entry = []
 		files.each do |file| 
 			yaml = YAML::load_file(file)
