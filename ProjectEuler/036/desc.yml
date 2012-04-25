@@ -1,0 +1,18 @@
+﻿title: Find the sum of all numbers less than one million, which are palindromic in base 10 and base 2.
+url: http://projecteuler.net/problem=36
+
+desc: |
+  The decimal number, 585 = 1001001001 (binary), is palindromic in both bases.
+  Find the sum of all numbers, less than one million, which are palindromic in base 10 and base 2.
+  (Please note that the palindromic number, in either base, may not include leading zeros.)
+
+solution: We can skip all even numbers since a even number would end in binary 10 - In reverse that would be 01 and we are told to skip leading 0's
+
+solutions:
+  solve.php:
+    desc: Basic solution
+    language: php
+  solve.rb:
+    desc: Basic solution in Ruby
+    language: ruby
+
