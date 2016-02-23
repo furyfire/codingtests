@@ -1,0 +1,10 @@
+title: Sieve of Eratosthenes
+url: http://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
+
+desc:Generate primes from 2 to 100
+solution: Do i need to say more
+
+solutions:
+  solve.c:
+    desc: ANSI C solution (Tested with TCC)
+    language: c
